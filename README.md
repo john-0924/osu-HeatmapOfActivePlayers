@@ -1,7 +1,7 @@
 # osu-HeatmapOfActivePlayers
 
 ## Overview
-This project is focused on reading information from downloaded html files and representing the data as a heatmap using Google Charts API.
+This project is focused getting data from https://osu.ppy.sh/rankings/osu/country via JS and representing it via Google Charts API.  We focused our attention on getting the number of active players for each country using JS to read the html files.
 
 ## Difficulties
 The initial obstacle we had was running the script on a web browser.  By doing so, we are limited to only our current domain because of same-origin policy.  
